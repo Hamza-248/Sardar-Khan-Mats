@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>404 · Redirecting…</title>
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+      // Fallback that preserves the path in the hash for an SPA client-side router
+      const path = window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace('/#' + path);
+    </script>
+  </head>
+  <body>
+    Redirecting…
+  </body>
+</html>
